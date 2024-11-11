@@ -2,7 +2,7 @@
     background-color: white;
     margin: 0;
     padding: 0;
-    font-family: "Friends UltraBold Regular";
+    font-family: "Sora";
 }
 header{
     width: 100%;
@@ -28,9 +28,6 @@ main{
     margin-top: 30px;
     margin-bottom: 70px;
 }
-.segundoSegmento{
-
-}
 .ondasVerdes{
     width: 60%;
     height: 200px;
@@ -40,4 +37,23 @@ main{
 .segundoSegmento p{
     margin-top: 15px;
     text-align: center;
+}
+.segundoSegmento img{
+    margin: 30px;
+}
+ul{
+    position: absolute;
+    left: 30%;
+    margin-top: 40px;
+}
+.quadroUm{
+    display: flex;
+    flex-direction: row;
+}
+.quadroUm .texto{
+    flex-direction: column;
+    text-align: left;
+}
+.quadroUm img{
+    margin-right: 25px;
 }
