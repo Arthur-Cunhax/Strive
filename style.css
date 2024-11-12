@@ -41,19 +41,30 @@ main{
 .segundoSegmento img{
     margin: 30px;
 }
-ul{
-    position: absolute;
-    left: 30%;
-    margin-top: 40px;
+.terceiroSegmento{
+    width: 100%;
+    background-color: #002400;
+    height: 400px;
 }
-.quadroUm{
-    display: flex;
-    flex-direction: row;
+.terceiroSegmento h1{
+    padding: 70px;
+    color: #73D901;
+    background-color: #002400;
 }
-.quadroUm .texto{
-    flex-direction: column;
-    text-align: left;
+.terceiroSegmento p{
+    background-color: #002400;
+    color: #FFFFFF;
 }
-.quadroUm img{
-    margin-right: 25px;
+.quartoSegmento{
+    margin: 40px;
+}
+.APIEXT{
+    color: #777777;
+    letter-spacing: 3px;
+}
+.quartoSegmento img{
+    margin: 30px;
+}
+.quartoSegmento h3{
+    margin-bottom: 30px;
 }
